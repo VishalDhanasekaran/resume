@@ -41,6 +41,7 @@
 
 // Function to define the section of the resume
 #let section(body) = {
+  v(10pt)
   text(size: 15pt, weight: "bold")[#body]
   v(4pt, weak: true)
   line(length: 100%, stroke: 1pt)
