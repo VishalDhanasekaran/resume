@@ -1,25 +1,32 @@
+#import "template.typ": iconlink
+#import "fontawesome.typ": phone, mail, github, linkedin
+
 // Function to define the header of the resume
 #let header(name, contacts) = {
   text(size: 25pt, weight: "bold", align(center, [#name]))
   v(8pt, weak: true)
-  text(
-    align(
-      center,
-      [
-        #(
-          contacts
-            .map(contact => {
-              if contact.at("type", default: none) == "email" {
-                link("mailto:" + contact.url)[#contact.display]
-              } else {
-                link(contact.url)[#contact.display]
-              }
-            })
-            .join([ | ])
-        )
-      ],
-    ),
-  )
+  align(center)[
+    #(
+      contacts
+        .map(contact => {
+          let icon = {
+            if contact.at("type", default: none) == "email" { mail }
+            else if contact.at("type", default: none) == "phone" { phone }
+            else if contact.at("type", default: none) == "github" { github }
+            else { linkedin }
+          }
+          let uri = {
+            if contact.at("type", default: none) == "email" {
+              "mailto:" + contact.url
+            } else {
+              contact.url
+            }
+          }
+          iconlink(uri, label: contact.display, icon: icon)
+        })
+        .join([·])
+    )
+  ]
   v(25pt, weak: true)
 }
 
@@ -41,7 +48,7 @@
 
 // Function to define the section of the resume
 #let section(body) = {
-  v(10pt)
+  v(5pt)
   text(size: 15pt, weight: "bold")[#body]
   v(4pt, weak: true)
   line(length: 100%, stroke: 1pt)
