@@ -9,7 +9,8 @@
   grid(columns: (auto, 1fr), [*Coimbatore Institute of Technology*], grid.cell(align: right)[October 2022 -- Present])
   [M.Sc., Software Systems (Integrated) | CGPA: 8.18 (till 6th Semester)]
   v(2pt)
-  grid(columns: (auto, 1fr), [*Geethanjalee Matric Hr Secondary School, HSC | Percentage: 85.3%*], grid.cell(align: right)[May 2022])
+  grid(columns: (auto, 1fr), [*Geethanjalee Matric Hr Secondary School*], grid.cell(align: right)[May 2022])
+  [HSC | Percentage: 85.3%]
 
   section[Professional Experience]
   let exp = asthra_intern
@@ -45,7 +46,9 @@
 
   section[Technical Skills]
   [*Programming Languages:* #technical_skills.programming]
+  v(2pt)
   [*Tools/Frameworks:* #technical_skills.tools]
+  v(2pt)
   [*Databases:* #technical_skills.databases]
 
   section[Roles & Responsibilities]

@@ -1,6 +1,6 @@
 // Function to define the header of the resume
 #let header(name, contacts) = {
-  text(size: 25pt, align(center, [#name]))
+  text(size: 25pt, weight: "bold", align(center, [#name]))
   v(8pt, weak: true)
   text(
     align(
@@ -41,7 +41,7 @@
 
 // Function to define the section of the resume
 #let section(body) = {
-  text(size: 15pt)[#body]
+  text(size: 15pt, weight: "bold")[#body]
   v(4pt, weak: true)
   line(length: 100%, stroke: 1pt)
   v(6pt, weak: true)
