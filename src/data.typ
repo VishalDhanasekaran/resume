@@ -121,6 +121,7 @@
   tech_stack: "ReactJS | Tailwind CSS",
   descriptions: (
     [A chess engine, with the score sheet that appends the algebraic notations automatically.],
+    [Programmed and integrated a chess engine that generates valid moves using the MiniMax algorithm.]
   ),
   start: "July 2024",
   end: "October 2024",
@@ -136,7 +137,7 @@
   end: "May 2023",
 )
 
-#let projects = (melinia_cit, chotta_chat, fosstream, dashboard, ticktos, chess, attendix)
+#let projects = (melinia_cit, chotta_chat, fosstream, ticktos, chess)
 
 #let technical_skills = (
   programming: "C, C++, Python, bash, Java, asm x86, Typescript, Kotlin (basic)",
