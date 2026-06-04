@@ -35,7 +35,7 @@
     url: "https://asthramedtech.com",
     tech_stack: "Tech Stack: Next.js, Express.js, Postman",
     achievements: (
-      [Developed a web-based platform that allows doctors to upload DICOM medical scans and automatically generate structured reports using OCR.],
+      [Developed a web-based platform that allows doctors to upload *DICOM medical scans* and automatically generate structured reports using OCR.],
       [Implemented a report editor with MPIN-secured digital signatures for secure publishing.],
       [Reduced report preparation time from 60 minutes to 5 minutes, significantly boosting doctors' productivity.],
     ),
@@ -45,7 +45,7 @@
     url: "https://asthramedtech.com",
     tech_stack: "Tech Stack: Next.js, Express.js, MySQL, Docker, AWS RDS, Bruno",
     achievements: (
-      [Designed and developed RESTful APIs with JWT-based authentication for secure, role-based routing.],
+      [Designed and developed *RESTful APIs with JWT-based* authentication for secure, role-based routing.],
       [Built features for live task tracking, schedule variance monitoring, and resource allocation, improving efficiency for both developers and project managers.],
     ),
   ),
@@ -68,9 +68,9 @@
   tech_stack: "bun | hono | vite + react (typescript)",
   descriptions: (
     [Architected and deployed a full-stack event management platform using Bun, Hono, React, Vite, and TypeScript in a monorepo architecture.],
-    [Successfully handled 2000+ users and event registrations during the tech fest.],
-    [Integrated Redis + BullMQ for asynchronous job processing, and designed PostgreSQL database schemas to support scalable event registrations, payment tracking, and transactional email workflows.],
-    [Implemented production-grade infrastructure with Docker, Caddy reverse proxy, GitHub Actions CI/CD, and Prometheus + Grafana monitoring, deploying the entire system on a self-managed VPS with a self-hosted Mailcow SMTP server for reliable email delivery and system observability.],
+    [Successfully handled *2000+ users* and event registrations during the tech fest.],
+    [Integrated *Redis + BullMQ* for asynchronous job processing, and designed *PostgreSQL* database schemas to support scalable event registrations, payment tracking, and transactional email workflows.],
+    [Implemented production-grade infrastructure with *Docker*, *Caddy reverse proxy*, GitHub Actions CI/CD, and *Prometheus + Grafana monitoring*, deploying the entire system on a self-managed VPS with a self-hosted *Mailcow SMTP server* for reliable email delivery and system observability.],
   ),
   start: "January 2025",
   end: "February 2026",
@@ -81,7 +81,7 @@
   url: "https://github.com/VishalDhanasekaran/chotta-chat",
   tech_stack: "Next.js | Ollama | Vercel's AI SDK",
   descriptions: (
-    [A lightweight chat application that enables seamless interaction with locally hosted AI models via Ollama.],
+    [A lightweight chat application that enables seamless interaction with locally hosted AI models via *Ollama*.],
     [Features a clean, responsive UI with real-time streaming responses for an intuitive user experience.],
   ),
   start: "August 2025",
@@ -90,11 +90,11 @@
 
 #let fosstream = (
   title: "FOSStream",
-  url: "https://github.com/VishalDhanasekaran/FOSStream",
+  url: "https://foss-stream.vercel.app/",
   tech_stack: "React.js",
   descriptions: (
-    [A single-page application (SPA) that aggregates FOSS news from multiple blogging platforms.],
-    [Implements infinite scrolling with smooth, efficient data fetching and a responsive interface for uninterrupted browsing.],
+    [A single-page application (SPA) that aggregates *FOSS news* from multiple blogging platforms.],
+    [Implements *infinite scrolling* with smooth, efficient data fetching and a responsive interface for uninterrupted browsing.],
   ),
   start: "July 2025",
   end: "",
@@ -116,7 +116,7 @@
   url: "https://github.com/fosscit/ticktos/",
   tech_stack: "RTOS | System Programming | OS Developement",
   descriptions: (
-    [A user-space simulation of a preemptive Real-Time Operating System (RTOS) with task scheduling, and real-time elevator control using priority-based scheduling.],
+    [A user-space simulation of a preemptive Real-Time Operating System (RTOS) with task scheduling, and real-time elevator control using *priority-based scheduling*.],
   ),
   start: "December 2024",
   end: "",
@@ -127,8 +127,8 @@
   url: "https://github.com/VishalDhanasekaran/chess-engine",
   tech_stack: "ReactJS | Tailwind CSS",
   descriptions: (
-    [A chess engine, with the score sheet that appends the algebraic notations automatically.],
-    [Programmed and integrated a chess engine that generates valid moves using the MiniMax algorithm.]
+    [A chess engine, with the score sheet that appends the *algebraic notations automatically*.],
+    [Programmed and integrated a chess engine that generates valid moves using the *MiniMax algorithm*.]
   ),
   start: "July 2024",
   end: "October 2024",
@@ -157,7 +157,7 @@
   organization: "FOSS United Coimbatore",
   url: "https://fossunited.org/c/coimbatore",
   achievements: (
-    [Organized Meetups in promote and build FOSS Ecosystem in Coimbatore region.],
+    [Organized Meetups in promote and build FOSS Ecosystem in *Coimbatore* region.],
   ),
   start: "June 2025",
   end: "Present",
@@ -168,11 +168,11 @@
   organization: "FOSS-CIT",
   url: "https://fosscit.netlify.app",
   achievements: (
-    [Delivered a Flash task in IndiaFOSS 2025, India's Largest FOSS Conference.],
-    [Represented the Club in TOSSConf 2025, a state level Open Source Software Conference],
+    [Delivered a Flash task in *IndiaFOSS 2025*, _India's Largest FOSS Conference_.],
+    [Represented the Club in *TOSSConf 2025*, _a state level Open Source Software Conference_],
   ),
   start: "May 2025",
-  end: "Present",
+  end: "April 2026",
 )
 
 #let secretary = (
@@ -181,8 +181,8 @@
   url: "https://fosscit.netlify.app/",
   achievements: (
     [Led the club by coordinating tasks and ensured fairness in teamwork],
-    [Delivered sessions on GNU/Linux, DSA, and Version Control Systems.],
-    [Team Lead & Mainter for Open Source Projects of FOSS-CIT],
+    [Delivered sessions on *GNU/Linux, DSA, and Version Control Systems*.],
+    [Team *Lead & Maintainer* for Open Source Projects of FOSS-CIT],
   ),
   start: "May 2024",
   end: "April 2025",
@@ -202,9 +202,9 @@
 #let roles = (core_team, club_advisor, secretary, pr_manager)
 
 #let co_curricular = (
-  (title: "Introduction to JavaScript Security (LFS184)", issuer: "The Linux Foundation", date: "November 2025", url: "https://training.linuxfoundation.org/"),
-  (title: "DIPLOMA in Quantum Computing", issuer: "QWorld Bronze 2024", date: "October 2024", url: "https://qworld.net/"),
-  (title: "WINNER in Tech Research Presentation", issuer: "Computing Research Day'24 - CIT", date: "September 2024", url: "https://www.cit.edu.in/"),
+  (title: "Introduction to JavaScript Security (LFS184)", issuer: "The Linux Foundation", date: "November 2025", url: "https://drive.google.com/file/d/1e7fr7Sw2bcDBxiOTTbXTfQDRTJpRdHld/view?usp=sharing"),
+  (title: "DIPLOMA in Quantum Computing", issuer: "QWorld Bronze 2024", date: "October 2024", url: "https://drive.google.com/file/d/1fMiRF3448K0kQcuGrKNNnly62RHmTj3j/view?usp=drive_link/"),
+  (title: "WINNER in Tech Research Presentation", issuer: "Computing Research Day'24 - CIT", date: "September 2024", url: "https://drive.google.com/file/d/1mKP1CuvYVUb1GZc-xzWub_xon3sWNXKo/view?usp=drive_link"),
 )
 
 #let interests = "Backend Development | Open Source Software Development | Operating Systems | DSA"
