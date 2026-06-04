@@ -8,8 +8,8 @@
 #let contacts = (
   (type: "email", url: "2005vishaldhanasekaran@gmail.com", display: "2005vishaldhanasekaran@gmail.com"),
   (type: "phone", url: "tel:+918220661814", display: "+91 8220661814"),
-  (type: "github", url: "https://github.com/VishalD", display: "Vishal D"),
-  (type: "linkedin", url: "https://linkedin.com/in/VishalDhanasekaran", display: "VishalDhanasekaran"),
+  (type: "github", url: "https://github.com/VishalDhanasekaran", display: "Vishal Dhanasekaran"),
+  (type: "linkedin", url: "https://linkedin.com/in/VishalDhanasekaran", display: "Vishal Dhanasekaran"),
 )
 
 #let geethanjalee = (
@@ -32,6 +32,7 @@
 #let asthra_projects = (
   (
     title: "Ultrasound Scan Report Generating Software",
+    url: "https://asthramedtech.com",
     tech_stack: "Tech Stack: Next.js, Express.js, Postman",
     achievements: (
       [Developed a web-based platform that allows doctors to upload DICOM medical scans and automatically generate structured reports using OCR.],
@@ -41,6 +42,7 @@
   ),
   (
     title: "Project Management System",
+    url: "https://asthramedtech.com",
     tech_stack: "Tech Stack: Next.js, Express.js, MySQL, Docker, AWS RDS, Bruno",
     achievements: (
       [Designed and developed RESTful APIs with JWT-based authentication for secure, role-based routing.],
@@ -62,6 +64,7 @@
 
 #let melinia_cit = (
   title: "Melinia'26",
+  url: "https://github.com/Melinia-CIT/melinia-26",
   tech_stack: "bun | hono | vite + react (typescript)",
   descriptions: (
     [Architected and deployed a full-stack event management platform using Bun, Hono, React, Vite, and TypeScript in a monorepo architecture.],
@@ -75,6 +78,7 @@
 
 #let chotta_chat = (
   title: "Chotta Chat",
+  url: "https://github.com/VishalDhanasekaran/chotta-chat",
   tech_stack: "Next.js | Ollama | Vercel's AI SDK",
   descriptions: (
     [A lightweight chat application that enables seamless interaction with locally hosted AI models via Ollama.],
@@ -86,6 +90,7 @@
 
 #let fosstream = (
   title: "FOSStream",
+  url: "https://github.com/VishalDhanasekaran/FOSStream",
   tech_stack: "React.js",
   descriptions: (
     [A single-page application (SPA) that aggregates FOSS news from multiple blogging platforms.],
@@ -108,6 +113,7 @@
 
 #let ticktos = (
   title: "TickTOS",
+  url: "https://github.com/fosscit/ticktos/",
   tech_stack: "RTOS | System Programming | OS Developement",
   descriptions: (
     [A user-space simulation of a preemptive Real-Time Operating System (RTOS) with task scheduling, and real-time elevator control using priority-based scheduling.],
@@ -118,6 +124,7 @@
 
 #let chess = (
   title: "CHESS GAME ENGINE",
+  url: "https://github.com/VishalDhanasekaran/chess-engine",
   tech_stack: "ReactJS | Tailwind CSS",
   descriptions: (
     [A chess engine, with the score sheet that appends the algebraic notations automatically.],
@@ -148,6 +155,7 @@
 #let core_team = (
   role: "Core Team Member",
   organization: "FOSS United Coimbatore",
+  url: "https://fossunited.org/c/coimbatore",
   achievements: (
     [Organized Meetups in promote and build FOSS Ecosystem in Coimbatore region.],
   ),
@@ -158,6 +166,7 @@
 #let club_advisor = (
   role: "Club Advisor",
   organization: "FOSS-CIT",
+  url: "https://fosscit.netlify.app",
   achievements: (
     [Delivered a Flash task in IndiaFOSS 2025, India's Largest FOSS Conference.],
     [Represented the Club in TOSSConf 2025, a state level Open Source Software Conference],
@@ -169,6 +178,7 @@
 #let secretary = (
   role: "Secretary",
   organization: "FOSS-CIT",
+  url: "https://fosscit.netlify.app/",
   achievements: (
     [Led the club by coordinating tasks and ensured fairness in teamwork],
     [Delivered sessions on GNU/Linux, DSA, and Version Control Systems.],
@@ -181,6 +191,7 @@
 #let pr_manager = (
   role: "Public Relations Manager",
   organization: "FOSS-CIT",
+  url: "https://fosscit.netlify.app/",
   achievements: (
     [Collaborated with participants and managed promotional activities of the Club.],
   ),
@@ -191,9 +202,9 @@
 #let roles = (core_team, club_advisor, secretary, pr_manager)
 
 #let co_curricular = (
-  (title: "Introduction to JavaScript Security (LFS184)", issuer: "The Linux Foundation", date: "November 2025"),
-  (title: "DIPLOMA in Quantum Computing", issuer: "QWorld Bronze 2024", date: "October 2024"),
-  (title: "WINNER in Tech Research Presentation", issuer: "Computing Research Day'24 - CIT", date: "September 2024"),
+  (title: "Introduction to JavaScript Security (LFS184)", issuer: "The Linux Foundation", date: "November 2025", url: "https://training.linuxfoundation.org/"),
+  (title: "DIPLOMA in Quantum Computing", issuer: "QWorld Bronze 2024", date: "October 2024", url: "https://qworld.net/"),
+  (title: "WINNER in Tech Research Presentation", issuer: "Computing Research Day'24 - CIT", date: "September 2024", url: "https://www.cit.edu.in/"),
 )
 
 #let interests = "Backend Development | Open Source Software Development | Operating Systems | DSA"
