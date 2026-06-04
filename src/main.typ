@@ -21,7 +21,7 @@
   )
   for proj in exp.projects {
     v(2pt)
-    [*#proj.title* \ #proj.tech_stack]
+    [*#proj.title* #extlink(proj.url) \ #proj.tech_stack]
     for ach in proj.achievements {
       [- #ach]
     }
@@ -36,7 +36,7 @@
     }
     grid(
       columns: (auto, 1fr),
-      [*#proj.title*, | #proj.tech_stack],
+      [*#proj.title* #extlink(proj.url), | #proj.tech_stack],
       grid.cell(align: right, date-str),
     )
     for desc in proj.descriptions {
@@ -55,7 +55,7 @@
   for r in roles {
     grid(
       columns: (auto, 1fr),
-      [#text(strong(r.role + ", " + r.organization), size: 12pt)],
+      [#text(strong(r.role + ", " + r.organization), size: 12pt) #extlink(r.url)],
       grid.cell(align: right + top)[#r.start -- #r.end],
     )
     for ach in r.achievements {
@@ -67,7 +67,7 @@
   for item in co_curricular {
     grid(
       columns: (auto, 1fr),
-      [#item.title, #item.issuer],
+      [#item.title #extlink(item.url), #item.issuer],
       grid.cell(align: right)[#item.date],
     )
   }

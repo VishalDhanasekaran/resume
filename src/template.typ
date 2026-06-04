@@ -26,6 +26,8 @@
     ]
 }
 
+#let extlink(url) = link(url)[#fa(external-link)]
+
 #let latex = {
     box(width: 2.55em, {
         [L]
