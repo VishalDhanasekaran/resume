@@ -43,14 +43,6 @@
       [- #desc]
     }
   }
-
-  section[Technical Skills]
-  [*Programming Languages:* #technical_skills.programming]
-  v(2pt)
-  [*Tools/Frameworks:* #technical_skills.tools]
-  v(2pt)
-  [*Databases:* #technical_skills.databases]
-
   section[Roles & Responsibilities]
   for r in roles {
     grid(
@@ -62,6 +54,14 @@
       [- #ach]
     }
   }
+
+
+  section[Technical Skills]
+  [*Programming Languages:* #technical_skills.programming]
+  v(2pt)
+  [*Tools/Frameworks:* #technical_skills.tools]
+  v(2pt)
+  [*Databases:* #technical_skills.databases]
 
   section[Co-Curricular]
   for item in co_curricular {
