@@ -22,7 +22,7 @@
 #let cit = (
   name: "Coimbatore Institute of Technology",
   degree: "M.Sc., Software Systems (Integrated)",
-  cgpa: 8.18,
+  cgpa: 8.28,
   start: "October 2022",
   end: "Present",
 )
@@ -162,7 +162,17 @@
   start: "June 2025",
   end: "Present",
 )
-
+#let dept_secretary = (
+  role: "Secretary",
+  organization:"Department of Software Systems",
+  url:"https://cit.edu.in/msc-software-systems",
+  achievements: (
+    [Organized *Alumini meetups*, to extend the Alumini association],
+    [Delivered workshops, bootcamps and *mentored juniors* on their placements and personal projects]
+  ),
+  start: "December 2025",
+  end: "Present"
+)
 #let club_advisor = (
   role: "Club Advisor",
   organization: "FOSS-CIT",
@@ -199,7 +209,7 @@
   end: "May 2024",
 )
 
-#let roles = (core_team, club_advisor, secretary, pr_manager)
+#let roles = (dept_secretary, core_team, club_advisor, secretary, pr_manager)
 
 #let co_curricular = (
   (title: "Introduction to JavaScript Security (LFS184)", issuer: "The Linux Foundation", date: "November 2025", url: "https://drive.google.com/file/d/1e7fr7Sw2bcDBxiOTTbXTfQDRTJpRdHld/view?usp=sharing"),

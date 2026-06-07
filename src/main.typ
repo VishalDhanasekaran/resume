@@ -7,7 +7,7 @@
 
   section[Education]
   grid(columns: (auto, 1fr), [*Coimbatore Institute of Technology*], grid.cell(align: right)[October 2022 -- Present])
-  [M.Sc., Software Systems (Integrated) | CGPA: 8.18 (till 6th Semester)]
+  [M.Sc., Software Systems (Integrated) | CGPA: 8.28 (till 7th Semester)]
   v(2pt)
   grid(columns: (auto, 1fr), [*Geethanjalee Matric Hr Secondary School*], grid.cell(align: right)[May 2022])
   [HSC | Percentage: 85.3%]
