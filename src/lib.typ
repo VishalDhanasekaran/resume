@@ -1,5 +1,5 @@
 #import "template.typ": iconlink
-#import "fontawesome.typ": phone, mail, github, linkedin
+#import "fontawesome.typ": phone, mail, github, linkedin, link-icon
 
 // Function to define the header of the resume
 #let header(name, contacts) = {
@@ -13,6 +13,7 @@
             if contact.at("type", default: none) == "email" { mail }
             else if contact.at("type", default: none) == "phone" { phone }
             else if contact.at("type", default: none) == "github" { github }
+            else if contact.at("type", default: none) == "website" { link-icon }
             else { linkedin }
           }
           let uri = {
@@ -24,7 +25,7 @@
           }
           iconlink(uri, label: contact.display, icon: icon)
         })
-        .join([·])
+        .join([])
     )
   ]
   v(25pt, weak: true)

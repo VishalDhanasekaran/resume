@@ -20,7 +20,7 @@
         #box(
             stroke: 0.5pt + rgb("#00FFFF"),
             outset: (y: 2.5pt),
-            inset: (x: 2pt),
+            inset: (x: 1.5pt),
             content,
         )
     ]

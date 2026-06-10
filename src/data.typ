@@ -6,10 +6,11 @@
 )
 
 #let contacts = (
+  (type: "website", url:"https://vishald.xyz/home", display:"vishald.xyz"),
   (type: "email", url: "2005vishaldhanasekaran@gmail.com", display: "2005vishaldhanasekaran@gmail.com"),
   (type: "phone", url: "tel:+918220661814", display: "+91 8220661814"),
-  (type: "github", url: "https://github.com/VishalDhanasekaran", display: "Vishal Dhanasekaran"),
-  (type: "linkedin", url: "https://linkedin.com/in/VishalDhanasekaran", display: "Vishal Dhanasekaran"),
+  (type: "github", url: "https://github.com/VishalDhanasekaran", display: "VishalDhanasekaran"),
+  (type: "linkedin", url: "https://linkedin.com/in/vishal-dhanasekaran", display: "Vishal Dhanasekaran"),
 )
 
 #let geethanjalee = (
